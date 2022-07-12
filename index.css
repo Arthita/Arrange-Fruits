@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+h1 {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#first-shelf {
+  background-color: red;
+}
+#second-shelf {
+  background-color: orange;
+}
+#shelf {
+  font-size: 30px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+  background-color: orangered;
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+button:active {
+  transform: translateX(2px) translateY(2px);
+  box-shadow: 5px 5px 5px brown;
+}
